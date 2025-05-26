@@ -16,11 +16,9 @@ It scans your system for suspicious startup entries and running processes that m
 
 ---
 
-## 🚀 Download
+### 📦 Download
 
-👉 [**Download AntiKeyloggerScanner.exe**](https://github.com/CH-Anonymous/anti-keylogger-scanner/releases/latest/download/AntiKeyloggerScanner.exe)
-
-[![Download EXE](https://img.shields.io/github/v/release/CH-Anonymous/anti-keylogger-scanner?label=Download%20EXE)](https://github.com/CH-Anonymous/anti-keylogger-scanner/releases/latest/download/AntiKeyloggerScanner.exe)
+👉 **[Click here to download the `.exe`](https://github.com/CH-Anonymous/anti-keylogger-scanner/releases/download/v1.0/anti_keylogger_gui.exe)**
 
 ---
 
