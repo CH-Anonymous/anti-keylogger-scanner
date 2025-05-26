@@ -1,4 +1,3 @@
-````markdown
 # 🛡️ Anti-Keylogger Scanner
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/CH-Anonymous/anti-keylogger-scanner)
@@ -59,8 +58,6 @@ python anti_keylogger_gui.py
 ```bash
 pyinstaller --onefile --windowed --icon=icon.ico anti_keylogger_gui.py
 ```
-
----
 
 ## 💻 How It Works
 
