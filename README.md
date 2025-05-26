@@ -29,7 +29,9 @@ A lightweight Windows-based Anti-Keylogger tool built in Python to detect suspic
 
 ## 📸 Screenshots
 
-*(Add screenshots here if available)*
+### 🖼️ GUI Interface
+![Scanner UI](images/scanner.png)
+![Startup Entries](images/process_scan.png)
 
 ---
 
