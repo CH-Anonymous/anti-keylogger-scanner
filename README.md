@@ -1,5 +1,3 @@
-Here's a complete and professional **`README.md`** file for your **Anti-Keylogger Scanner** GitHub repository, including installation, usage, features, and contribution sections:
-
 ---
 
 ````markdown
