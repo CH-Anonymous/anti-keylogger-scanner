@@ -1,102 +1,104 @@
-```markdown
+````markdown
 # 🛡️ Anti-Keylogger Scanner
 
-A simple GUI-based Anti-Keylogger Scanner tool built with Python and Tkinter.  
-It scans your system for suspicious startup entries and running processes that may indicate the presence of a keylogger.
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/CH-Anonymous/anti-keylogger-scanner)
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![Made with Python](https://img.shields.io/badge/made%20with-Python-3776AB?logo=python&logoColor=white)
+
+A lightweight Windows-based Anti-Keylogger tool built in Python to detect suspicious startup entries and running processes that might be related to keylogging activities.
 
 ---
 
-## 📌 Features
+## 📦 Features
 
-- 🔍 Scan for suspicious startup registry entries
-- 🧠 Detect keylogger-like behavior in running processes
-- ❌ Terminate detected suspicious processes
-- 💾 Save scan results to a text file
-- 📦 Packaged as a standalone `.exe` file (no Python needed)
-
----
-
-### 📦 Download
-
-👉 **[Click here to download the `.exe`](https://github.com/CH-Anonymous/anti-keylogger-scanner/releases/download/v1.0/anti_keylogger_gui.exe)**
+- 🔍 Scan for suspicious **startup registry entries**
+- 🧠 Detect potentially harmful **background processes**
+- ❌ Terminate flagged processes from within the app
+- 💾 Save scan results to a `.txt` file
+- 🖼️ Simple, intuitive GUI using `Tkinter`
+- 🖥️ Standalone `.exe` version available for Windows
 
 ---
 
-## 🖥️ How It Works
+## 🚀 Download
 
-- Scans Windows Registry for suspicious startup entries under:
-```
+👉 [Download the latest .exe](https://github.com/CH-Anonymous/anti-keylogger-scanner/releases/download/v1.0/anti_keylogger_gui.exe)
 
-HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\Run
-
-````
-- Filters process list using keywords like `log`, `winlog`, `appdata` in names or paths.
+> ⚠️ Note: Windows Defender or other antivirus tools may flag the `.exe` since it interacts with processes and the registry. Rest assured, it is open-source and safe to use.
 
 ---
 
-## 🛠️ Setup (For Developers)
+## 📸 Screenshots
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/CH-Anonymous/anti-keylogger-scanner.git
-cd anti-keylogger-scanner
-````
+*(Add screenshots here if available)*
 
-### 2. Install Requirements
+---
+
+## 🧰 Installation (For Developers)
+
+### Requirements
+
+- Python 3.10 or later
+- `psutil`
+- `pyinstaller`
+
+### Install Dependencies
 
 ```bash
 pip install psutil
-```
+````
 
-> `winreg` is a built-in module in Windows, so no installation is needed.
-
----
-
-## 🧰 Build EXE (Optional)
-
-If you want to build your own `.exe` from source:
-
-### 1. Install PyInstaller
+### Run the Script
 
 ```bash
-pip install pyinstaller
+python anti_keylogger_gui.py
 ```
 
-### 2. Create Executable
+### Build Executable
 
 ```bash
-pyinstaller --onefile --windowed --icon=your_icon.ico anti_keylogger_gui.py
-```
-
-Your `.exe` file will be generated in the `dist/` folder.
-
----
-
-## 🖼️ Screenshots
-
-*(Optional: Add screenshots if available)*
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🙌 Credits
-
-Developed by [Chirag Khatri](https://github.com/CH-Anonymous)
-For learning and educational use only.
-
+pyinstaller --onefile --windowed --icon=icon.ico anti_keylogger_gui.py
 ```
 
 ---
 
-### ✅ Next Step
+## 💻 How It Works
 
-Once your `.exe` is uploaded in the **Release** tab, the download link will work immediately.  
-Let me know if you want me to generate a `.ico` icon for the app or help with screenshots or GitHub Pages.
+* Checks Windows registry startup entries (specifically keys under `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`)
+* Monitors active processes and flags ones from `AppData` or with suspicious names like `log`, `winlog`, etc.
+* Allows you to terminate unwanted or potentially harmful processes
+* Enables saving results of the scan to a `.txt` file
 
-Would you like me to create a GitHub-friendly icon for your project too?
+---
+
+## 📁 Project Structure
+
+```
+keylogger/
+├── anti_keylogger_gui.py
+├── icon.ico
+├── dist/
+│   └── anti_keylogger_gui.exe
+├── README.md
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+## 👨‍💻 Author
+
+**Chirag Khatri**
+GitHub: [@CH-Anonymous](https://github.com/CH-Anonymous)
+
+---
+
+## ⭐ Star This Repo
+
+If you find this project helpful or interesting, feel free to star it and share it!
+
 ```
