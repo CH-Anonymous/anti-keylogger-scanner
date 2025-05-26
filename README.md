@@ -73,12 +73,23 @@ pyinstaller --onefile --windowed --icon=icon.ico anti_keylogger_gui.py
 ## 📁 Project Structure
 
 ```
-keylogger/
-├── anti_keylogger_gui.py
-├── icon.ico
+anti-keylogger-scanner/
+│
+├── build/
+│   └── anti_keylogger_gui/         ← PyInstaller build files
+│
 ├── dist/
-│   └── anti_keylogger_gui.exe
-├── README.md
+│   └── anti_keylogger_gui.exe      ← Your final executable
+│
+├── images/
+│   └── screenshot.png              ← Screenshot(s) used in README
+│
+├── .gitignore                      ← Ignores build, dist, etc.
+├── README.md                       ← Full documentation with screenshot + release
+├── anti_keylogger_gui.py          ← Your main Python script
+├── anti_keylogger_gui.spec        ← PyInstaller spec file
+└── favicon.ico                     ← App icon used in build
+
 ```
 
 ---
