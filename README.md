@@ -1,17 +1,3 @@
-Here's your complete `README.md` file for the **Anti-Keylogger Scanner**, including:
-
-* Project overview
-* Features
-* Setup instructions
-* Building the `.exe`
-* Download link to your release
-* License section
-* Screenshot support (optional)
-
----
-
-### ✅ Full `README.md`:
-
 ```markdown
 # 🛡️ Anti-Keylogger Scanner
 
