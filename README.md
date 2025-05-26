@@ -7,6 +7,15 @@ A lightweight and easy-to-use Windows tool built with Python and Tkinter to dete
 
 ---
 
+## 📥 Download the EXE
+
+> ✅ No Python installation required  
+> 📦 Just one file – portable and ready to run!
+
+**👉 [Download AntiKeyloggerScanner.exe](https://github.com/CH-Anonymous/anti-keylogger-scanner/releases/latest/download/AntiKeyloggerScanner.exe)**
+
+---
+
 ## 🔍 Features
 
 - **Startup Entry Scan** – Detects suspicious programs in the Windows registry's auto-run section.
@@ -19,19 +28,17 @@ A lightweight and easy-to-use Windows tool built with Python and Tkinter to dete
 
 ## 🚀 How to Use
 
-### 🔧 Option 1: Run the Executable (Recommended for End Users)
+### Option 1: Run the EXE (Recommended)
 
-1. Go to the [Releases](https://github.com/CH-Anonymous/anti-keylogger-scanner/releases) section.
-2. Download the latest `AntiKeyloggerScanner.exe` file.
-3. Double-click to launch the GUI tool.
-4. Click "Scan System" to find suspicious activity.
-5. Optionally terminate processes or save results.
-
-> ✅ Works on Windows 10 and 11
+1. Click [here to download](https://github.com/CH-Anonymous/anti-keylogger-scanner/releases/latest/download/AntiKeyloggerScanner.exe).
+2. Double-click the file to open the scanner.
+3. Click **"Scan System"** to detect suspicious activity.
+4. Use **"Terminate Process"** to kill flagged processes.
+5. Use **"Save Scan Results"** to export your scan.
 
 ---
 
-### 🛠 Option 2: Run the Source Code (For Developers)
+### Option 2: Run from Source (For Developers)
 
 #### 🔗 Clone the Repo
 
@@ -41,14 +48,6 @@ cd anti-keylogger-scanner
 ````
 
 #### 📦 Install Requirements
-
-Make sure Python is installed. Then:
-
-```bash
-pip install -r requirements.txt
-```
-
-Or install dependencies manually:
 
 ```bash
 pip install psutil
@@ -62,31 +61,29 @@ python anti_keylogger_gui.py
 
 ---
 
-## 🛑 How to Build .EXE from Source (For Devs)
+## 🛠 Build the Executable Yourself
 
-If you want to generate your own `.exe` file:
-
-1. Install **PyInstaller**:
+1. Install PyInstaller:
 
 ```bash
 pip install pyinstaller
 ```
 
-2. Build the executable:
+2. Run this command to create an EXE:
 
 ```bash
 pyinstaller --onefile --windowed --icon=icon.ico anti_keylogger_gui.py
 ```
 
-Your `.exe` file will appear in the `dist/` directory.
+> Your EXE will be inside the `dist/` folder.
 
 ---
 
 ## 🧠 How It Works
 
-* **Registry Scan**: Looks for suspicious keys in `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`.
-* **Process Scan**: Filters running processes with suspicious names or AppData paths.
-* **Results Output**: Highlights all suspicious matches for user review.
+* **Registry Scan**: Looks at startup entries under Windows registry.
+* **Process Scan**: Filters running processes from `AppData` with suspicious names.
+* **Results Output**: Lists suspicious startup items and running processes.
 
 ---
 
@@ -94,11 +91,11 @@ Your `.exe` file will appear in the `dist/` directory.
 
 ```
 anti-keylogger-scanner/
-├── anti_keylogger_gui.py       # Main script
-├── favicon.ico                    # App icon (optional)
-├── README.md                   # This file
-├── dist/                       # Contains compiled .exe after build
-└── requirements.txt            # Python dependencies
+├── anti_keylogger_gui.py
+├── icon.ico
+├── README.md
+├── dist/
+└── requirements.txt
 ```
 
 ---
@@ -111,18 +108,18 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork the project and submit pull requests.
+Contributions, bug reports, and suggestions are welcome!
 
 ---
 
 ## 📧 Contact
 
-Developed by **Chirag Khatri**
-GitHub: [CH-Anonymous](https://github.com/CH-Anonymous)
+Created by **Chirag Khatri**
+GitHub: [@CH-Anonymous](https://github.com/CH-Anonymous)
 
 ```
 
 ---
 
-Let me know if you'd like the `requirements.txt`, `LICENSE`, or icon file too.
+📝 **Note**: Be sure you have uploaded your `AntiKeyloggerScanner.exe` in the GitHub **Releases** section under the latest release. If not, I can guide you through that as well.
 ```
