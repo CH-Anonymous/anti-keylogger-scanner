@@ -1,10 +1,6 @@
-__pycache__/
-*.spec
+# .gitignore
 build/
 dist/
+__pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.log
-*.exe
-.env
+*.spec
