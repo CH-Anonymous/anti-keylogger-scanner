@@ -82,7 +82,8 @@ anti-keylogger-scanner/
 │   └── anti_keylogger_gui.exe      ← Your final executable
 │
 ├── images/
-│   └── screenshot.png              ← Screenshot(s) used in README
+│   ├── scanner.png
+│   └── process_scan.png             ← Screenshot(s) used in README
 │
 ├── .gitignore                      ← Ignores build, dist, etc.
 ├── README.md                       ← Full documentation with screenshot + release
