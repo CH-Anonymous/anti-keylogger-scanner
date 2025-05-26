@@ -95,5 +95,3 @@ GitHub: [@CH-Anonymous](https://github.com/CH-Anonymous)
 ## ⭐ Star This Repo
 
 If you find this project helpful or interesting, feel free to star it and share it!
-
-```
