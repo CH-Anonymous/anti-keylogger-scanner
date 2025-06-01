@@ -79,9 +79,9 @@ anti-keylogger-scanner/
 │   ├── scanner.png
 │   └── process_scan.png                                  
 ├── README.md                       
-└── anti_keylogger_gui.py          
-       
-                    
+├── anti_keylogger_gui.py          
+├── requirements.txt         
+└── setup.py                      
 ```
 
 ---
