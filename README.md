@@ -75,21 +75,13 @@ pyinstaller --onefile --windowed --icon=icon.ico anti_keylogger_gui.py
 ```
 anti-keylogger-scanner/
 │
-├── build/
-│   └── anti_keylogger_gui/        
-│
-├── dist/
-│   └── anti_keylogger_gui.exe      
-│
 ├── images/
 │   ├── scanner.png
-│   └── process_scan.png             
-│
-├── .gitignore                      
+│   └── process_scan.png                                  
 ├── README.md                       
-├── anti_keylogger_gui.py          
-├── anti_keylogger_gui.spec        
-└── favicon.ico                     
+└── anti_keylogger_gui.py          
+       
+                    
 ```
 
 ---
